@@ -1,0 +1,16 @@
+.container {
+    overflow: hidden;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    width: 100%;
+}
+
+.container a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 18px 50px;
+    text-decoration: none;
+}

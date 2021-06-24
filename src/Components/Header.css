@@ -1,0 +1,12 @@
+.header {
+    padding: 10rem;
+    color: black;
+    background-color: red;
+}
+
+.title {
+    color: white;
+    font-size: 3rem;
+    transform: rotate(-15deg);
+    padding-top: 0px;
+}

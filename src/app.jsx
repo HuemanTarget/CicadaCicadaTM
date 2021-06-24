@@ -1,29 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './app.css';
-import logo from '../public/logo.png'; 
+import NavBar from './Components/NavBar';
+import Header from './Components/Header';
+import Story from './Components/Story';
+import Actors from './Components/Actors';
+import Footer from './Components/Footer';
+import SeaCaptain from './Components/SeaCaptain';
+import Ticket from './Components/Ticket';
 
-class App extends React.Component {	
-  render() {
-    return (
-      <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/app.jsx</code> and tap.... on the play button.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <NavBar />
+      <Header />
+      <Story />
+      <Actors />
+      <SeaCaptain />
+      <Ticket />
+      <Footer />
     </div>
-    )
-  }
+  );
 }
 
 ReactDOM.render(<App />, document.getElementById('root'));
